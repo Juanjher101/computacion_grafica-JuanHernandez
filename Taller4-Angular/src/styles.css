@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --font-family-1: Arial;
+    --font-family-2: Nerko One;
+    --font-family-link: Bold;
+    --font-size-p-1: 16px;
+    --font-size-p-2: 12px;
+    --font-size-h2: 2rem;
+    --font-size-table: 1.5rem;
+    --back-color-extremes-row: #bec1c3;
+    --back-color-center-row: #045795;
+    --color-p-1: #0093FF;
+    --color-p-2: #c500ff;
+    --color-h2: #ff4900;
+    --color-link: #001bff;
+    --color-extremes-row: #000000;
+    --color-center-row: #ffffff;
+}
+
+table{
+    margin: 10%;
+    padding: 0%;
+    width: 70%;
+}
+
+th{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+#extremes-row{
+    font-size: var(--font-size-table);
+    background-color: var(--back-color-extremes-row);
+    color: var(--color-extremes-row);
+}
+
+#center-row{
+    font-size: var(--font-size-table);
+    background-color: var(--back-color-center-row);
+    color: var(--color-center-row);
+}
+
+#parrafo1{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-p-1);
+    color: var(--color-p-1);
+}
+
+#parrafo2{
+    font-family: var(--font-family-2);
+    font-size: var(--font-size-p-2);
+    color: var(--color-p-2);
+}
+
+li{
+    color: var(--color-link);
+    font-family: var(--font-family-link);
+}
+a:visited { color: #4CAF50;
+}
+a:hover {
+    color: #ff6600;
+    text-decoration: underline
+}
+
+h2{
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-h2);
+    color: var(--color-h2);
+}
