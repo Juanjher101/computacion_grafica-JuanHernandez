@@ -1,3 +1,36 @@
 #header{
-    
+    display: flex;
+    align-items: center;
+    text-justify:auto;
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    gap: 40%;
+}
+#logo{
+    z-index: 10;
+    position:absolute left;
+    align-self: flex-start;
+    text-justify:auto;
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: goldenrod;
+}
+#buscador{
+    position:absolute right;
+    align-self: flex-end;
+    text-justify:auto;
+    text-align: left;
+    width: 20%;
+    height: 40%;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
 }
