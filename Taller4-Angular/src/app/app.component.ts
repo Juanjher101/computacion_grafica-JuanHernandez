@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { BuscadorComponent } from './buscador/buscador.component';
 import { HeaderComponent } from './header/header.component';
 import { LogoComponent } from './logo/logo.component';
+import { ContenedorComponent } from './contenedor/contenedor.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, BuscadorComponent, HeaderComponent, LogoComponent],
+  imports: [RouterOutlet, BuscadorComponent, HeaderComponent, LogoComponent, ContenedorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
